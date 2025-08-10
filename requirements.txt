@@ -3,3 +3,10 @@ pandas
 pyarrow
 plotly
 numpy
+streamlit
+pandas
+pyarrow
+plotly
+numpy
+matplotlib
+
