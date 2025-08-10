@@ -793,7 +793,7 @@ if df is not None and not df.empty:
         else:
             st.caption(f"Buscas: **{fmt_int_br(qtd_buscas)}** • Ofertas: **{fmt_int_br(qtd_ofertas)}**")
 
-        # ========================= 9. VISÃO TEMPORAL (Semanal | Quinzenal | Mensal) =========================
+        # ========================= 9. VISÃO TEMPORAL(EM DESENVOLVIMENTO) (Semanal | Quinzenal | Mensal) =========================
         st.markdown('<div class="topbar"><span class="label">Visão temporal:</span></div>', unsafe_allow_html=True)
         visao = st.radio(" ", options=['Semanal','Quinzenal','Mensal'], index=0, horizontal=True, label_visibility="collapsed")
         st.markdown("")  # espaçamento
@@ -1032,3 +1032,4 @@ if df is not None and not df.empty:
 
 else:
     st.warning("Nenhum dado carregado.")
+
