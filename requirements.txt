@@ -1,12 +1,8 @@
-streamlit
-pandas
-pyarrow
-plotly
+streamlit>=1.35
+pandas>=2.1
 numpy
-streamlit
-pandas
-pyarrow
 plotly
-numpy
+pyarrow
 matplotlib
+
 
